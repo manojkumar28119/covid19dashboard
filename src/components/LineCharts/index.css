@@ -1,0 +1,50 @@
+.line-chart-heading {
+  font-size: 28px;
+  color: rgba(203, 213, 225, 1);
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.custom-tooltip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.label {
+  margin: 0px;
+  margin-bottom: 5px;
+  font-size: 10px;
+  font-weight: 500;
+}
+@media screen and (max-width: 576px) {
+  .line-chart-heading {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+.line-chart-card {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+.line-chart-card1 {
+  background-color: rgba(51, 20, 39, 1);
+  color: rgba(255, 7, 58, 1);
+}
+.line-chart-card2 {
+  background-color: rgba(19, 34, 64, 1);
+  color: rgba(0, 123, 255, 1);
+}
+.line-chart-card3 {
+  background-color: rgba(24, 40, 41, 1);
+  color: rgba(39, 162, 67, 1);
+}
+.line-chart-card4 {
+  background-color: rgba(28, 28, 43, 1);
+  color: rgba(108, 117, 125, 1);
+}
+.line-chart-card5 {
+  background-color: rgba(35, 15, 65, 1);
+  color: rgba(150, 115, 185, 1);
+}

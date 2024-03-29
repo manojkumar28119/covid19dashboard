@@ -1,0 +1,117 @@
+.state-specific-page {
+  background-color: rgba(22, 22, 37, 1);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+}
+.state-card {
+  width: 80%;
+  color: #ffffff;
+  padding-top: 40px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 576px) {
+  .state-card {
+    width: 90%;
+  }
+}
+.state-name-nd-tested-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.state-name {
+  padding: 8px 25px;
+  background-color: rgba(2, 132, 199, 0.16);
+  border-radius: 32px;
+  color: rgba(14, 165, 233, 1);
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0px;
+  align-self: flex-end;
+}
+@media screen and (max-width: 576px) {
+  .state-name {
+    font-size: 18px;
+  }
+}
+.tested-cases-card {
+  color: rgba(148, 163, 184, 1);
+  text-align: right;
+  align-self: flex-start;
+}
+.tested-heading {
+  margin: 0px;
+  font-size: 15px;
+}
+.tested-cases {
+  margin: 0px;
+  font-size: 20px;
+  font-weight: 500;
+}
+@media screen and (max-width: 576px) {
+  .tested-cases {
+    font-size: 16px;
+  }
+  .tested-heading {
+    font-size: 12px;
+  }
+}
+.updated-date {
+  font-size: 12px;
+  margin-top: 5px;
+  padding-left: 10px;
+  color: rgba(203, 213, 225, 1);
+}
+.state-specific-cases-card {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.state-cases-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 100%;
+}
+.confirmed-cases-card {
+  background-color: rgba(51, 20, 39, 1);
+  border-radius: 10px;
+}
+.top-dis-head {
+  color: rgba(255, 7, 58, 1);
+  font-size: 25px;
+  font-family: 500;
+}
+.top-districts-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  align-items: center;
+}
+.active-cases-type {
+  background-color: rgba(19, 34, 64, 1);
+  border-radius: 10px;
+}
+.recovered-cases-type {
+  background-color: rgba(24, 40, 41, 1);
+  border-radius: 10px;
+}
+.deceased-cases-type {
+  background-color: rgba(33, 34, 48, 1);
+  border-radius: 10px;
+}
+.bar-chart {
+  align-self: center;
+}
+.bar {
+  width: 15% !important;
+}
+.label-text {
+  color: rgba(255, 7, 58, 1);
+}

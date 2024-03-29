@@ -1,0 +1,44 @@
+.nt-fnd-page {
+  background-color: rgba(22, 22, 37, 1);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.not-fnd-heading {
+  color: rgba(203, 213, 225, 1);
+  font-size: 28px;
+}
+.nt-fnd-text {
+  color: rgba(148, 163, 184, 1);
+  font-size: 18px;
+  width: 60%;
+  text-align: center;
+  line-height: 32px;
+  margin: 0px;
+}
+.nt-fnd-btn {
+  background-color: rgba(37, 99, 235, 1);
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 1);
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.nt-fnd-img {
+  width: 400px;
+}
+@media screen and (max-width: 576px) {
+  .nt-fnd-img {
+    width: 80%;
+  }
+  .not-fnd-heading {
+    font-size: 20px;
+  }
+  .nt-fnd-text {
+    width: 90%;
+  }
+}

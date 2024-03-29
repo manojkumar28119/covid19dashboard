@@ -1,0 +1,43 @@
+.about-page {
+  min-height: 100vh;
+  background-color: rgba(22, 22, 37, 1);
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+}
+.about-card {
+  width: 80%;
+  align-self: center;
+}
+.ab-heading {
+  color: rgba(248, 250, 252, 1);
+  font-size: 38px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.ab-text {
+  color: rgba(148, 163, 184, 1);
+  font-size: 15px;
+  margin-top: 2px;
+}
+.ab-heading2 {
+  color: rgba(226, 232, 240, 1);
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.faq-list {
+  padding-left: 0px;
+  list-style: none;
+}
+@media screen and (max-width: 576px) {
+  .about-card {
+    width: 90%;
+  }
+  .ab-heading {
+    font-size: 28px;
+  }
+  .ab-text {
+    font-size: 12px;
+  }
+}

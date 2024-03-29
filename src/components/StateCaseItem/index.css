@@ -1,0 +1,31 @@
+.state-case-item {
+  display: flex;
+  margin-bottom: 50px;
+  align-items: center;
+  width: 1146px;
+}
+.column-card-1 {
+  padding-left: 20px;
+  width: 210px;
+  color: rgba(241, 245, 249, 1);
+}
+.state-case-text {
+  font-size: 14px;
+  margin: 0px;
+  font-weight: 500;
+}
+.state-column-card-1 {
+  display: flex;
+  justify-content: center;
+  width: 90px;
+  margin-left: 48px;
+}
+.population-text {
+  color: rgba(148, 163, 184, 1);
+}
+.state-column-card-2 {
+  display: flex;
+  justify-content: center;
+  width: 85px;
+  margin-left: 99px;
+}

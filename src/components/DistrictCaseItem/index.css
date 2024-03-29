@@ -1,0 +1,36 @@
+.district-item {
+  display: flex;
+  color: rgba(148, 163, 184, 1);
+  width: 25%;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  .district-item {
+    width: 33%;
+  }
+}
+
+.district-cases {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0px;
+  margin-right: 10px;
+}
+.district-name {
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0px;
+}
+@media screen and (max-width: 576px) {
+  .district-item {
+    width: 50%;
+  }
+  .district-cases {
+    font-size: 18px;
+  }
+  .district-name {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,10 @@
+.question {
+  color: rgba(148, 163, 184, 1);
+  font-size: 16px;
+}
+.answer {
+  font-size: 15px;
+  color: rgba(0, 123, 255, 1);
+  line-height: 32px;
+  margin-bottom: 25px;
+}
