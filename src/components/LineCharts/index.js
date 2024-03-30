@@ -49,10 +49,7 @@ const LineCharts = props => {
       <h1 className="line-chart-heading">Daily Spread Trends</h1>
       <div className="line-chart-card line-chart-card1">
         <ResponsiveContainer width="100%" height={250}>
-          <LineChart
-            data={data}
-            margin={{top: 5, right: 20, left: 20, bottom: 5}}
-          >
+          <LineChart data={data} margin={{top: 5, right: 20, bottom: 5}}>
             <XAxis
               dataKey="date"
               tick={{fill: 'rgba(255, 7, 58, 1)', fontSize: '12px'}}
@@ -72,7 +69,7 @@ const LineCharts = props => {
                 padding: '10px',
               }}
             />
-            <Legend />
+            <Legend wrapperStyle={{padding: '5px'}} />
             <Line
               type="monotone"
               dataKey="confirmed"
@@ -84,10 +81,7 @@ const LineCharts = props => {
       </div>
       <div className="line-chart-card line-chart-card2">
         <ResponsiveContainer width="100%" height={250}>
-          <LineChart
-            data={data}
-            margin={{top: 5, right: 20, left: 20, bottom: 5}}
-          >
+          <LineChart data={data} margin={{top: 5, right: 20, bottom: 5}}>
             <XAxis
               dataKey="date"
               tick={{fill: 'rgba(0, 123, 255, 1)', fontSize: '12px'}}
@@ -119,10 +113,7 @@ const LineCharts = props => {
       </div>
       <div className="line-chart-card line-chart-card3">
         <ResponsiveContainer width="100%" height={250}>
-          <LineChart
-            data={data}
-            margin={{top: 5, right: 20, left: 20, bottom: 5}}
-          >
+          <LineChart data={data} margin={{top: 5, right: 20, bottom: 5}}>
             <XAxis
               dataKey="date"
               tick={{fill: 'rgba(39, 162, 67, 1)', fontSize: '12px'}}
@@ -154,10 +145,7 @@ const LineCharts = props => {
       </div>
       <div className="line-chart-card line-chart-card4">
         <ResponsiveContainer width="100%" height={250}>
-          <LineChart
-            data={data}
-            margin={{top: 5, right: 20, left: 20, bottom: 5}}
-          >
+          <LineChart data={data} margin={{top: 5, right: 20, bottom: 5}}>
             <XAxis
               dataKey="date"
               tick={{fill: 'rgba(108, 117, 125, 1)', fontSize: '12px'}}
@@ -189,10 +177,7 @@ const LineCharts = props => {
       </div>
       <div className="line-chart-card line-chart-card5">
         <ResponsiveContainer width="100%" height={250}>
-          <LineChart
-            data={data}
-            margin={{top: 5, right: 20, left: 20, bottom: 5}}
-          >
+          <LineChart data={data} margin={{top: 5, right: 20, bottom: 5}}>
             <XAxis
               dataKey="date"
               tick={{fill: 'rgba(150, 115, 185, 1)', fontSize: '12px'}}

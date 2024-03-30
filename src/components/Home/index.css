@@ -50,7 +50,7 @@
 .country-cases-card {
   display: flex;
   align-self: center;
-  width: 80%;
+  width: 90%;
   justify-content: space-between;
   margin-top: 40px;
   flex-wrap: wrap;
@@ -65,6 +65,9 @@
 @media screen and (max-width: 576px) {
   .cases-card {
     width: 50%;
+  }
+  .country-cases-card {
+    width: 100%;
   }
 }
 .case-icon {
